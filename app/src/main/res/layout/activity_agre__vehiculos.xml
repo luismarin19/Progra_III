@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_buttom_5"
+    tools:context=".Agre_Vehiculos">
+
+    <EditText
+        android:id="@+id/txtMarca"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:layout_marginTop="85dp"
+        android:background="@drawable/custom_input"
+        android:hint="Marca" />
+
+    <EditText
+        android:id="@+id/txtModelo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:background="@drawable/custom_input"
+
+        android:layout_marginTop="145dp"
+        android:hint="Modelo" />
+
+    <EditText
+        android:id="@+id/txtYear"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="205dp"
+        android:background="@drawable/custom_input"
+
+        android:gravity="center"
+        android:hint="Año Vehiculo"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txtNum_Motor"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:background="@drawable/custom_input"
+
+        android:layout_marginTop="265dp"
+        android:hint="Numero motor"/>
+
+    <EditText
+        android:id="@+id/txtNum_Chasis"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:background="@drawable/custom_input"
+
+        android:layout_marginTop="325dp"
+        android:hint="Numero Chasis"/>
+
+    <Button
+        android:id="@+id/btnGuardarVehiculos"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="445dp"
+        android:text="Guardar Vehiculo" />
+
+    <Button
+        android:id="@+id/btnMostrarVehiculos"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:text="Mostar Productos" />
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:background="#3F51B5"
+        android:gravity="center"
+        android:text="VEHICULOS"
+        android:layout_marginLeft="130dp"
+        android:textColor="#FFFDFD"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imgPhotoProducto"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="30dp"
+        android:soundEffectsEnabled="false"
+        app:srcCompat="@drawable/camara" />
+
+    <ImageView
+        android:id="@+id/imgGaleriaProducto"
+        android:layout_width="44dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="30dp"
+        android:soundEffectsEnabled="false"
+        app:srcCompat="@drawable/picture" />
+
+
+</RelativeLayout>
